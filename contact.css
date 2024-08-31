@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(186, 15%, 59%);
+
+}
+
+.container{
+    /* height: 100vh; */
+    /* width: 100%; */
+    background-color: hsl(148, 38%, 91%);
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.mini-container{
+         
+        
+        width: 90%;
+        background-color: hsl(0, 0%, 100%);
+        filter: drop-shadow(5px 5px 10px black);
+        border-radius: 10px;
+        padding: 40px;
+        
+        
+      
+
+        
+}
+
+.Last{
+   margin-left: 312px;
+}
+
+.Name-input,.Last-N-input{
+    display: inline-block;
+   
+}
+
+.firstname,.lastname{
+    height: 35px;
+    width: 346px;
+    /* width: 100%; */
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.firstname:hover{
+    cursor: pointer;
+    background-color: hsl(148, 38%, 91%);
+  
+    
+    
+}
+
+.firstname:focus{
+    outline-color: hsl(169, 82%, 27%);
+}
+
+.lastname:hover{
+    cursor: pointer;
+    background-color: hsl(148, 38%, 91%);
+    border-color: hsl(148, 38%, 91%);
+    border: 1px solid;
+}
+
+.lastname:focus{
+    outline-color: hsl(169, 82%, 27%);
+}
+
+.lastname{
+    margin-left: 18px;
+}
+
+.gmail{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.gmail:hover{
+    cursor: pointer;
+    background-color: hsl(148, 38%, 91%);
+    
+    
+}
+
+.gmail:focus{
+    outline-color: hsl(169, 82%, 27%);
+}
+
+.mail{
+    margin-top: 20px;
+}
+
+.radio1{
+    display: inline-block;
+    /* height: 35px; */
+    width: 337px;
+    border:1px solid rgb(136, 124, 124);
+    padding: 8px 8px; 
+    border-radius: 5px; 
+}
+
+.radio1:hover{
+    cursor: pointer;
+    background-color: hsl(148, 38%, 91%);
+   
+   
+}
+
+.radio1:focus{
+    outline-color:  hsl(169, 82%, 27%);
+}
+
+.query{
+    margin-top: 20px;
+}
+
+textarea{
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+   
+}
+
+textarea:hover{
+    cursor: pointer;
+    background-color: hsl(148, 38%, 91%);
+   
+    border: 1px solid;
+}
+textarea:focus{
+    outline-color: hsl(169, 82%, 27%) ;
+}
+
+.Message{
+    margin-top: 20px;
+}
+.check{
+    margin-top: 20px;
+}
+
+#check-box,#radia,#radio{
+    accent-color:hsl(169, 82%, 27%) ;
+}
+
+.submit{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:hsl(169, 82%, 27%) ;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+
+label,p{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
